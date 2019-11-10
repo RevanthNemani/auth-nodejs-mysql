@@ -1,10 +1,15 @@
 const Sequelize = require('sequelize');
 
-const sequelize = new Sequelize('test', 'root', '', {
-  host: '127.0.0.1',
-  dialect: 'mysql',
-  operatorsAliases: false
-});
+const sequelize = new Sequelize(
+  'IFRS9DEV',
+  'ifrs9dev',
+  'Ifrs9dev@2019',
+  {
+    host: 'raynemani.ml',
+    dialect: 'mysql',
+    operatorsAliases: false
+  }
+);
 
 module.exports = sequelize;
 global.sequelize = sequelize;
