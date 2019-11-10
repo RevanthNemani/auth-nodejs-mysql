@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize');
 
 const sequelize = new Sequelize(
-  'IFRS9DEV',
+  'ifrs9dev',
   'ifrs9dev',
   'Ifrs9dev@2019',
   {
